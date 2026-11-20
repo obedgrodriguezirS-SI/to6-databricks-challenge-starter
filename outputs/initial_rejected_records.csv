@@ -1,0 +1,4 @@
+source_table,rule,reason,return_id,taxpayer_id,tax_year,income,deduction
+training.to6_challenge3_inputs.returns_initial,completeness,required value 'income' is NULL,R02,F1,2022,,33
+training.to6_challenge3_inputs.returns_initial,uniqueness,return_id 'R01' occurs 2 times; must occur exactly once,R01,F0,2022,100.0,20
+training.to6_challenge3_inputs.returns_initial,uniqueness,return_id 'R01' occurs 2 times; must occur exactly once,R01,F0,2022,100.0,20

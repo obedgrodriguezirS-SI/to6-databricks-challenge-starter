@@ -1,0 +1,13 @@
+split_table,return_id,tax_year,deduction_to_income
+features_train,R01,2022,0.2
+features_train,R02,2022,0.165
+features_train,R03,2022,
+features_train,R04,2022,0.1475
+features_validation,R05,2023,0.144
+features_validation,R06,2023,0.14166666666666666
+features_validation,R07,2023,0.14
+features_validation,R08,2023,0.13875
+features_test,R09,2024,
+features_test,R10,2024,0.137
+features_test,R11,2024,0.13636363636363635
+features_test,R12,2024,0.13583333333333333

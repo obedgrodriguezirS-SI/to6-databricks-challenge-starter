@@ -1,0 +1,26 @@
+{
+  "assessed_at_utc": "2026-11-20T17:16:11+00:00",
+  "rules": {
+    "completeness": "['return_id', 'tax_year', 'income', 'deduction'] must not be NULL",
+    "uniqueness": "return_id must occur exactly once"
+  },
+  "batches": [
+    {
+      "table": "training.to6_challenge3_inputs.returns_initial",
+      "total_rows": 13,
+      "distinct_return_ids": 12,
+      "completeness_violations": 1,
+      "uniqueness_violations": 2,
+      "decision": "REJECTED"
+    },
+    {
+      "table": "training.to6_challenge3_inputs.returns_corrected",
+      "total_rows": 12,
+      "distinct_return_ids": 12,
+      "completeness_violations": 0,
+      "uniqueness_violations": 0,
+      "decision": "ACCEPTED"
+    }
+  ],
+  "accepted_table": "training.to6_challenge3_inputs.returns_corrected"
+}
