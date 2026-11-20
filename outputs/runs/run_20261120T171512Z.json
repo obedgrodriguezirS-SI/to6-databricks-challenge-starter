@@ -1,0 +1,9 @@
+{
+  "run_id": "20261120T171512Z",
+  "executed_at_utc": "2026-11-20T17:15:12+00:00",
+  "notebook_path": "/Users/obed.g.rodriguez.irs@catalyte.ai/to6-databricks-challenge-starter/notebook",
+  "notebook_url": "https://dbc-48a16403-f66f.cloud.databricks.com/editor/notebooks/127024866560362",
+  "accepted_table": "training.to6_challenge3_inputs.returns_corrected",
+  "rows": 12,
+  "distinct_return_ids": 12
+}
